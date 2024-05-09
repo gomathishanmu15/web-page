@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .img1{
+            height: 400px;
+            width: 100%;
+        }
+        .box5{
+            height: 500px;
+            width: 600px;
+            border: 1px solid green;
+            background-color: green;
+        }
+        #name{
+        padding:10px;
+        margin-top: 20px;
+        font-size:30px;
+        margin-left:10px;
+      }
+      #fname{
+        padding:10px;
+        margin-top: 20px;
+        font-size:20px;
+        margin-left: 10px;
+      }
+      #last{
+        padding:10px;
+        margin-top:5px;
+        font-size:30px;
+        position: absolute;
+        margin-left: 10px;
+      }
+      #lname{
+        padding:10px;
+        margin-top: 20px;
+        font-size:20px;
+        position: absolute;
+        gap:10px;
+        margin-left:10px;
+      }
+      #mail{
+        padding:10px;
+        margin-top: 80px;
+        font-size:30px;
+        position: absolute;
+        margin-left: 10px;
+      }
+      #E-mail{
+        
+        padding:10px;
+        margin-top: 110px;
+        font-size:20px;
+        position:absolute;
+        margin-left: 10px;
+      }
+      #number{
+        padding:10px;
+        margin-top: 140px;
+        font-size:30px;
+        position: absolute;
+        margin-left: 10px;
+      }
+      #num{
+        padding:10px;
+        margin-top:180px;
+        font-size:20px;
+        position: absolute;
+        margin-left: 10px;
+      }
+      #submit{
+        padding:10px;
+        margin-top:270px;
+        font-size:20px;
+        position: absolute;
+        margin-left: 100px;
+        border: 1px solid white;
+        height:50px;
+        width:300px;
+      }
+    </style>
+</head>
+<body>
+    <img src="https://tse4.mm.bing.net/th?id=OIP.hRd1a5rWstacrv0AJ7fxFgHaE7&pid=Api&P=0&h=180"class="img1"/>
+    <div class="container">
+      <div class=" img col-md-6">
+    <img src="https://cdn.rsjoomla.com/images/stories/user-guide/joomla-event-manager/rseventspro-location-module.jpg"class="img"/>
+    
+    <div class="box5">
+    <form >
+        <label id="name">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Gomathi">
+      
+        <label id="last">Last name:</label>
+        <input type="text" id="lname" name="lname" value="Abarna"><br>
+      
+        <label id="mail">E-mail:</label><br>
+        <input type="text" id="E-mail" name="E-mail" value="Gomathishanmu15@gmail.com"><br>
+      
+        <label id="number">Mobile Number:</label><br>
+        <input type="text" id="num" name="num" value="9626164344"><br>
+        <input type="button" onclick="myFunction()" value="Submit form">
+        <script>
+          function myFunction() {
+            document.getElementById("myForm").submit();
+          }
+          </script>
+      
+        <input type="submit" value="Submit" id="submit">
+      </form> 
+    </div>
+    </div>
+      
+</body>
+</html>
